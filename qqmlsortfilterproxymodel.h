@@ -142,6 +142,9 @@ private:
     QVector<int> m_proxyRoleNumbers;
 };
 
+
+void registerQQmlSortFilterProxyModelTypes();
+
 }
 
 #endif // QQMLSORTFILTERPROXYMODEL_H
